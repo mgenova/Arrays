@@ -24,5 +24,7 @@ Grades.prototype.average = function() {
 
 var grade = new Grades();
 
-console.log(grade.add(88));
+grade.add(88);
+grade.add(88);
+grade.add(88);
 console.log(grade.average());
